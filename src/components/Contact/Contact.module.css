@@ -41,4 +41,10 @@ color: blueviolet;
         align-items: center;
         gap: 30px;
     }
+    .title{
+        font-size: 45px;
+    }
+    .desc{
+        font-size: 30px;
+    }
 }

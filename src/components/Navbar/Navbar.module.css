@@ -20,6 +20,10 @@
 .menu{
     display: flex;
 }
+.menubtn{
+    display: none;
+    cursor: pointer;
+}
 .menuitem{
     display: flex;
     font-weight: 500;
@@ -51,7 +55,7 @@
 
     .menubtn{
         display: block;
-        cursor: pointer;
+        /* cursor: pointer; */
     }
 
     .menuitem{

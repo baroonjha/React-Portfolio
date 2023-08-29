@@ -23,6 +23,8 @@
 }
 
 .project{
+    width: 345px;
+    height: 505px;
     display: flex;
     flex-direction: column;
     background:linear-gradient(rgb(5, 77, 149) 10%,rgb(5, 41, 78) 100%);
