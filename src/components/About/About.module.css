@@ -1,0 +1,76 @@
+@import "../../var.css";
+
+
+.heading{
+    font-size: 35px;
+    font-weight: 700px;
+    color: white;
+    padding: 43px 51px;
+}
+.main{
+    /* position: relative; */
+    background-color: black;
+    border-radius: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    /* color: red; */
+}
+.heroImg{
+    width: 50%;
+}
+
+.aboutItem{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg,#25545f 0%,#000000 100%);
+    border-radius:10px ;
+    padding: 10px;
+
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+}
+.content:hover{
+    background-size: 100% 100%;
+}
+
+.title{
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--color-text);
+
+}
+.desc{
+    font-size: 25px;
+    font-weight: 400;
+    color: var(--color-text);
+}
+
+.Img{
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+}
+
+@media screen and (max-width:830px) {
+    .main{
+        background-color: transparent;
+        
+    }
+    .container{
+        flex-direction:column ;
+    }
+    
+}

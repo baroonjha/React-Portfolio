@@ -1,0 +1,105 @@
+@import "../../var.css";
+
+.main{
+    /* margin-top: 10%; */
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+    
+
+}
+.container{
+    display: flex;
+    position: relative;
+    margin-bottom: 65px;
+
+}
+
+.heading{
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    padding: 32px 0px;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    background:linear-gradient(rgb(5, 77, 149) 10%,rgb(5, 41, 78) 100%);
+    border-radius: 10px;
+    padding: 18px 22px;
+    margin-right: 20px;
+    /* gap: 20px; */
+    
+}
+.Img{
+ width: 298px;
+ height: 200px;
+}
+
+.title{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--color-text);
+}
+.desc{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.skills{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.skillName{
+    font-size: 22px;
+    font-weight: 400;
+    border-radius: 100px;
+    background-color:#0B2447;
+    padding: 5px 15px;
+}
+
+.button{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+border-radius: 100px;
+}
+.btnText{
+    border-radius: 100px;
+    background-color:#576CBC;
+    font-size: 26px;
+    font-weight: 600;
+    align-items: center;
+    border: none;
+    padding: 2px 12px;
+}
+.btnText a {
+    text-decoration: none;
+color: var(--color-text);
+
+}
+
+@media screen and (max-width:830px) {
+    .container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .btnText{
+        font-size: 20px;
+        font-weight: 400;
+        padding: 2px 5px;
+    }
+    .skillName{
+        font-size: 18px;
+        font-weight: 400;
+        border-radius: 100px;
+        background-color:#0B2447;
+        padding: 2px 6px;
+    }
+}

@@ -1,0 +1,108 @@
+@import "../../var.css";
+
+.container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 49px;
+    z-index: 1;
+    margin-left:10% ;
+    margin-right:10% ;
+}
+
+.content{
+    color: var(--color-text);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 1;
+    gap: 10px;
+}
+.title{
+    color: var(--color-text);
+    font-weight: 800;
+    font-size: 72px;
+    font-family: var(--font-roboto);
+    background: linear-gradient(90deg,
+    rgb(255,255,255,1) 70%,
+    rgb(255,255,255,0) 128%
+    );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.desc{
+    font-family: var(--font-roboto);
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.contactBtn{
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    background-color:var(--color-primary) ;
+    color: var(--color-text);
+    border-radius: 100px;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 17px 26px;
+    box-shadow: 0 0 4px o rgb(0,0,0,0.25);
+}
+
+.heroImg{
+    width: 50%;
+    z-index: 1;
+    animation: rotate 2s infinite ease-in-out;
+}
+
+@keyframes rotate {
+    0%{
+        transform: translate(0,0px);
+    }
+    50%{
+        transform: translate(0,10px);
+    }
+    100%{
+        transform:translate(0,-0px) ;
+    }
+    
+}
+.topBlur{
+    position: absolute;
+    width: 50vw;
+    height: 50vh;
+    min-width: 350px;
+    min-height: 350px;
+    top : -128px;
+    left: 10vw;
+    border: 764px;
+    background: rgb(25, 55, 100,0.7);
+    filter: blur(100px);
+    z-index: 0;
+}
+.bottomBlur{
+    position: absolute;
+    width: 20vw;
+    height: 50vh;
+    min-width: 350px;
+    min-height: 250px;
+    top : 246px;
+    right: -9vw;
+    border: 764px;
+    background: rgb(25, 55, 100,0.7);
+    filter: blur(100px);
+    z-index: 0;
+}
+
+@media screen and (max-width:830px) {
+    .container{
+        flex-direction: column-reverse;
+    }
+
+    .content{
+        align-items: center;
+    }
+    
+}
+
