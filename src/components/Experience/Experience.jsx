@@ -81,7 +81,7 @@ const Experience = () => {
               <p className={styles.date}>Sept,2023-present</p>
               <p className={styles.desc}>
               <ul>
-                    <li>Worked on google map</li>
+                    <li>Worked on Faster data Fetching</li>
                     <li>Reduced load times by 50%</li>
                 </ul>
               </p>
@@ -97,8 +97,8 @@ const Experience = () => {
               <p className={styles.date}>Sept,2023-present</p>
               <p className={styles.desc}>
               <ul>
-                    <li>Worked on google map</li>
-                    <li>Reduced load times by 50%</li>
+                    <li>Worked on Bing</li>
+                    <li>Customized the Panel</li>
                 </ul>
               </p>
             </div>
