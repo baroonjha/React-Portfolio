@@ -34,44 +34,44 @@ const Experience = () => {
               <p>React</p>
             </div>
             <div className={styles.skillBox}>
-              <img src={getImageUrl("skills/figma.png")} />
-              <p>Figma</p>
+              <img src={getImageUrl("skills/next.png")} className={styles.skillImg}/>
+              <p>Nextjs</p>
             </div>
           </div>
           <div className={styles.skillBoxx}>
             <div className={styles.skillBox}>
-              <img src={getImageUrl("skills/mongodb.png")} />
-              <p>mongoDb</p>
-            </div>
-            <div className={styles.skillBox}>
-              <img src={getImageUrl("skills/react.png")} />
-              <p>React</p>
-            </div>
-            <div className={styles.skillBox}>
               <img src={getImageUrl("skills/figma.png")} />
               <p>Figma</p>
+            </div>
+            <div className={styles.skillBox}>
+              <img src={getImageUrl("skills/tailwindcss.png")} className={styles.skillImg}/>
+              <p>Tailwind CSS</p>
+            </div>
+            <div className={styles.skillBox}>
+              <img src={getImageUrl("skills/bootstrap.png")} className={styles.skillImg}/>
+              <p>Boostrap</p>
             </div>
           </div>
         </div>
         <div className={styles.exp}>
         <p className={styles.heading}>Experience</p>
           <div className={styles.content}>
-            <img
+            {/* <img
               src={getImageUrl("history/google.png")}
               className={styles.arrowImg}
-            />
+            /> */}
             <div>
-              <p className={styles.title}>Software Engineer ,google</p>
-              <p className={styles.date}>Sept,2023-present</p>
-              <p className={styles.desc}>
+              <p className={styles.title}>Fresher</p>
+              <p className={styles.date}>But have good knowledge of tech stack used in the industry </p>
+              {/* <p className={styles.desc}>
                 <ul>
                     <li>Worked on google map</li>
                     <li>Reduced load times by 50%</li>
                 </ul>
-              </p>
+              </p> */}
             </div>
           </div>
-          <div className={styles.content}>
+          {/* <div className={styles.content}>
             <img
               src={getImageUrl("history/netflix.png")}
               className={styles.arrowImg}
@@ -102,7 +102,7 @@ const Experience = () => {
                 </ul>
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

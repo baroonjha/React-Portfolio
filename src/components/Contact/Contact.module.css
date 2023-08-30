@@ -10,12 +10,12 @@
 }
 
 .title{
-    font-size: 80px;
+    font-size: 65px;
     font-weight: 700;
 }
 
 .desc{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 400;
 }
 
@@ -42,9 +42,9 @@ color: blueviolet;
         gap: 30px;
     }
     .title{
-        font-size: 45px;
+        font-size: 35px;
     }
     .desc{
-        font-size: 30px;
+        font-size: 25px;
     }
 }
