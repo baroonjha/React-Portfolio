@@ -35,26 +35,26 @@ export const Project = () => {
             src={getImageUrl("projects/project.png")}
             className={styles.img}
           />
-          <p className={styles.title}>Project B</p>
+          <p className={styles.title}>NFT DAO</p>
           <p className={styles.desc}>
             This is a project made to learn the latest languages by building an
             app.
           </p>
           <div className={styles.skills}>
             <p className={styles.skillName}>React</p>
-            <p className={styles.skillName}>Express</p>
-            <p className={styles.skillName}>Nodejs</p>
+            <p className={styles.skillName}>Solidity</p>
+            <p className={styles.skillName}>NFT</p>
           </div>
           <div className={styles.button}>
             <button className={styles.btnText}>
-              <a href="https://google.com">Demo</a>
+              <a href="https://nft-powered-on-chain-dao.vercel.app/">Demo</a>
             </button>
             <button className={styles.btnText}>
-              <a href="https://github.com/baroonjha">Source Code</a>
+              <a href="https://github.com/baroonjha/NFT-Powered-On-Chain-DAO">Source Code</a>
             </button>
           </div>
         </div>
-        <div className={styles.project}>
+        {/* <div className={styles.project}>
           <img
             src={getImageUrl("projects/project.png")}
             className={styles.img}
@@ -77,7 +77,7 @@ export const Project = () => {
               <a href="https://github.com/baroonjha">Source Code</a>
             </button>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
